@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'normal';
+    src: url('Oswald-VariableFont_wght.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'gta';
+    src: url('pricedown bl.otf') format(opentype);
+
+
+}
+
+    
+
+body{
+    background-color: rgb(252, 236, 218);
+    
+}
+
+main{
+    background-color: #583d18;
+    box-shadow: 10px 10px 15px #160d019d;
+    border-radius: 20px 20px 20px 20px;
+    height: 90px;
+    width: 300px;
+    margin: auto;
+    
+    
+    
+    
+    
+}
+h1{
+
+    font-family: 'gta';
+    text-align: center;
+    color: rgb(138, 123, 102);
+    font-size: 4em;
+    text-shadow: 1px 1px 5px #3620019d;
+    margin: auto;
+    
+    
+    
+    
+    
+    
+}
+img{
+    width: 200px;
+    border-radius: 30px ;
+    
+}
+h2{
+    
+    font-family: 'gta';
+    text-align: center;
+    color: #503209;
+    padding: 4px;
+    background-color: #a07840a4;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #160d019d;
+    font-size: 3em;
+    
+    
+    
+    
+}    
+p{
+    font-family: 'normal';
+    font-size: 2em;
+    text-align: center;
+    
+    
+}
+button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    color:rgb(143, 143, 143);
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(14, 7, 73);
+    font-family: 'gta';
+}
+
+    
+button:visited{
+    color: rgb(136, 129, 129);
+
+}
+button:hover{
+    color:rgb(155, 60, 60);
+    text-decoration: underline;
+    
+}
+button:active {
+color: darkblue;
+}
+
+#config{
+    font-family: 'gta';
+    text-align: center;
+    color: #503209;
+    background-color: #917758;
+    
+}
+
