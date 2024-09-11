@@ -30,15 +30,22 @@
         #meuestado{
             background-color: yellow;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px"> População</th>
             
         </thead>
         <tbody>
@@ -154,7 +161,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total Habitantes</th>
+                <th scope="row">Total Habitantes</th>
                 <td><strong>247.610.560</strong></td>
             </tr>
         </tfoot>
